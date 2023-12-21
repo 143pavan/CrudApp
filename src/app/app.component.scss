@@ -1,0 +1,23 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .main-body{
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width: 1248px;
+    mat-form-field{
+      width: 100%;
+    }
+  }
+  .btn{
+    color: red;
+    cursor:pointer;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+  }
+  .btn:hover{
+    color: black;
+    background-color: red;
+  }
